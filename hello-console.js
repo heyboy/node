@@ -5,7 +5,7 @@ var http = require('http');
 var server = http.createServer(function (request, response) {
   response.writeHead(200, {"Content-Type": "text/html"});
 
- var foo = 1;
+ var foo = "baa";
 
   if(foo) {	
    		response.end("<h3>Hello Foo</h3>\n");
